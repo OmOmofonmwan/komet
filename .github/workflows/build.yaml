@@ -28,7 +28,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
+            
       - name: Get POM Version
         id: getPOMVERSSION
         run: echo "POM_VERSION=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_OUTPUT
@@ -52,6 +52,7 @@ jobs:
         with:
           branch_name: ${{env.BRANCH_NAME}}
           mvn_additional_args: '-Dbuild.version=${{needs.get-args.outputs.BUILD_NUMBER}} -Dbuild.time="${{needs.get-args.outputs.DATE}}"'
+          java-version: '24'
      
 
   generate_build_installers:
@@ -70,7 +71,7 @@ jobs:
          uses: actions/setup-java@v4
          with:
             distribution: 'zulu'
-            java-version: '23'
+            java-version: '24'
 
        - name: Composite Action
          uses: ./.github/installer_composite
