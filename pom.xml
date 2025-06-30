@@ -65,6 +65,7 @@
 
          <!-- Java Version Variables -->
         <java.version>24</java.version>
+        <maven-pmd-plugin.version>3.27.0</maven-pmd-plugin.version>
 
         <!-- Tinkar Core Variables -->
         <tinkar-core.groupId>dev.ikm.tinkar</tinkar-core.groupId>
