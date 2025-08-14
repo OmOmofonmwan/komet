@@ -1,0 +1,1321 @@
+[INFO] Cache configuration is not available at configured path C:\Users\omomofonmwan\FDAShieldCode\GitHub\ForkedRepos\komet\.mvn\maven-build-cache-config.xml, cache is enabled with defaults
+[INFO] Using XX hash algorithm for cache
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] KOMET                                                              [pom]
+[INFO] komet-terms                                                        [jar]
+[INFO] preferences                                                        [jar]
+[INFO] framework                                                          [jar]
+[INFO] artifact                                                           [jar]
+[INFO] builder                                                            [jar]
+[INFO] classification                                                     [jar]
+[INFO] details                                                            [jar]
+[INFO] executor                                                           [jar]
+[INFO] list                                                               [jar]
+[INFO] navigator                                                          [jar]
+[INFO] progress                                                           [jar]
+[INFO] rules                                                              [jar]
+[INFO] search                                                             [jar]
+[INFO] Knowledge Layout                                                   [jar]
+[INFO] kview                                                              [jar]
+[INFO] sync                                                               [jar]
+[INFO] application                                                        [jar]
+[INFO] 
+[INFO] ---------------------< dev.ikm.komet:komet-parent >---------------------
+[INFO] Building KOMET 1.53.0-SNAPSHOT                                    [1/18]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ komet-parent ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+Downloading from jitpack.io: https://jitpack.io/com/github/jlgrock/personal-checkstyle/maven-metadata.xml
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ---------------------< dev.ikm.komet:komet-terms >----------------------
+[INFO] Building komet-terms 1.53.0-SNAPSHOT                              [2/18]
+[INFO]   from komet-terms\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ komet-terms ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ---------------------< dev.ikm.komet:preferences >----------------------
+[INFO] Building preferences 1.53.0-SNAPSHOT                              [3/18]
+[INFO]   from preferences\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ preferences ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ----------------------< dev.ikm.komet:framework >-----------------------
+[INFO] Building framework 1.53.0-SNAPSHOT                                [4/18]
+[INFO]   from framework\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ framework ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -----------------------< dev.ikm.komet:artifact >-----------------------
+[INFO] Building artifact 1.53.0-SNAPSHOT                                 [5/18]
+[INFO]   from artifact\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ artifact ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -----------------------< dev.ikm.komet:builder >------------------------
+[INFO] Building builder 1.53.0-SNAPSHOT                                  [6/18]
+[INFO]   from builder\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ builder ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] --------------------< dev.ikm.komet:classification >--------------------
+[INFO] Building classification 1.53.0-SNAPSHOT                           [7/18]
+[INFO]   from classification\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ classification ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -----------------------< dev.ikm.komet:details >------------------------
+[INFO] Building details 1.53.0-SNAPSHOT                                  [8/18]
+[INFO]   from details\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ details ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -----------------------< dev.ikm.komet:executor >-----------------------
+[INFO] Building executor 1.53.0-SNAPSHOT                                 [9/18]
+[INFO]   from executor\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ executor ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -------------------------< dev.ikm.komet:list >-------------------------
+[INFO] Building list 1.53.0-SNAPSHOT                                    [10/18]
+[INFO]   from list\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ list ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ----------------------< dev.ikm.komet:navigator >-----------------------
+[INFO] Building navigator 1.53.0-SNAPSHOT                               [11/18]
+[INFO]   from navigator\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ navigator ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -----------------------< dev.ikm.komet:progress >-----------------------
+[INFO] Building progress 1.53.0-SNAPSHOT                                [12/18]
+[INFO]   from progress\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ progress ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ------------------------< dev.ikm.komet:rules >-------------------------
+[INFO] Building rules 1.53.0-SNAPSHOT                                   [13/18]
+[INFO]   from rules\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ rules ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ------------------------< dev.ikm.komet:search >------------------------
+[INFO] Building search 1.53.0-SNAPSHOT                                  [14/18]
+[INFO]   from search\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ search ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -------------------< dev.ikm.komet:knowledge-layout >-------------------
+[INFO] Building Knowledge Layout 1.53.0-SNAPSHOT                        [15/18]
+[INFO]   from knowledge-layout\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ knowledge-layout ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ------------------------< dev.ikm.komet:kview >-------------------------
+[INFO] Building kview 1.53.0-SNAPSHOT                                   [16/18]
+[INFO]   from kview\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ kview ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] -------------------------< dev.ikm.komet:sync >-------------------------
+[INFO] Building sync 1.53.0-SNAPSHOT                                    [17/18]
+[INFO]   from sync\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ sync ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] 
+[INFO] ---------------------< dev.ikm.komet:application >----------------------
+[INFO] Building application 1.53.0-SNAPSHOT                             [18/18]
+[INFO]   from application\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.18.0:display-dependency-updates (default-cli) @ application ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   com.github.RoaringBitmap.RoaringBitmap:roaringbitmap ...
+[INFO]                                                           1.4.0 -> 1.4.1
+[INFO]   dev.ikm.jpms:eclipse-collections .......... 11.1.0-r13 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:eclipse-collections-api ...... 11.1.0-r11 -> 12.0.0.M3-r3
+[INFO]   dev.ikm.jpms:jgit ...
+[INFO]                      6.10.0.202406032230-r-r5 -> 7.2.0.202503040940-r-r5
+[INFO]   dev.ikm.jpms:record-builder-core ...................... 36-r7 -> 44-r2
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   io.github.classgraph:classgraph ................... 4.8.179 -> 4.8.180
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                          3.7.0 -> 3.15.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-api ................. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-migrationsupport .... 5.12.2 -> 5.13.2
+[INFO]   org.junit.jupiter:junit-jupiter-params .............. 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-commons ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-engine ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-jfr ............... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-launcher .......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-reporting ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-runner ............ 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite ............. 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-api ......... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-commons ..... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-suite-engine ...... 1.12.2 -> 1.13.2
+[INFO]   org.junit.platform:junit-platform-testkit ........... 1.12.2 -> 1.13.2
+[INFO]   org.junit.vintage:junit-vintage-engine .............. 5.12.2 -> 5.13.2
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome-pack .......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-fontawesome5-pack ......... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-foundation-pack ........... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-icomoon-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-ionicons4-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-javafx .................... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-mapicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-material2-pack ............ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign-pack ....... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-materialdesign2-pack ...... 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-octicons-pack ............. 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-runestroicons-pack ........ 12.3.1 -> 12.4.0
+[INFO]   org.kordamp.ikonli:ikonli-unicons-pack .............. 12.3.1 -> 12.4.0
+[INFO]   org.mockito:mockito-core ............................ 5.15.2 -> 5.18.0
+[INFO]   org.openjfx:javafx-base .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-graphics ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-swing ......................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-web ........................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   dev.ikm.tinkar:composer ............................... 1.6.0 -> 1.8.0
+[INFO]   one.jpro:jpro-webapi ............................ 2025.2.0 -> 2025.2.1
+[INFO]   org.apache.maven.surefire:common-java5 ................ 3.5.2 -> 3.5.3
+[INFO]   org.junit.jupiter:junit-jupiter ..................... 5.12.2 -> 5.13.2
+[INFO]   org.junit.platform:junit-platform-console ........... 1.12.2 -> 1.13.2
+[INFO]   org.openjfx:javafx-controls ...................... 23.0.1 -> 25-ea+22b
+[INFO]   org.openjfx:javafx-fxml .......................... 23.0.1 -> 25-ea+22b
+[INFO] 
+[INFO] The following dependencies in pluginManagement of plugins have newer versions:
+[INFO]   com.puppycrawl.tools:checkstyle ................... 10.23.1 -> 10.26.1
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for KOMET 1.53.0-SNAPSHOT:
+[INFO] 
+[INFO] KOMET .............................................. SUCCESS [  2.523 s]
+[INFO] komet-terms ........................................ SUCCESS [  0.434 s]
+[INFO] preferences ........................................ SUCCESS [  0.306 s]
+[INFO] framework .......................................... SUCCESS [  0.365 s]
+[INFO] artifact ........................................... SUCCESS [  0.284 s]
+[INFO] builder ............................................ SUCCESS [  0.279 s]
+[INFO] classification ..................................... SUCCESS [  0.356 s]
+[INFO] details ............................................ SUCCESS [  0.255 s]
+[INFO] executor ........................................... SUCCESS [  0.265 s]
+[INFO] list ............................................... SUCCESS [  0.290 s]
+[INFO] navigator .......................................... SUCCESS [  0.310 s]
+[INFO] progress ........................................... SUCCESS [  0.295 s]
+[INFO] rules .............................................. SUCCESS [  0.284 s]
+[INFO] search ............................................. SUCCESS [  0.299 s]
+[INFO] Knowledge Layout ................................... SUCCESS [  0.365 s]
+[INFO] kview .............................................. SUCCESS [  0.348 s]
+[INFO] sync ............................................... SUCCESS [  0.254 s]
+[INFO] application ........................................ SUCCESS [  0.339 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.577 s
+[INFO] Finished at: 2025-06-30T15:30:34-05:00
+[INFO] ------------------------------------------------------------------------
